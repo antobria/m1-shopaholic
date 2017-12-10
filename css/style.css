@@ -11,7 +11,7 @@ body{
   position:relative;
 }
 .title{
-  justify-content: space-around;
+  text-align: center;
   flex-direction: column;
   position:relative;
 
