@@ -1,32 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-body{
-  background-image: url(../img/background.jpg);
-  background-repeat: no-repeat;
-  font-family: "Open Sans";
-  position: absolute;
-
+html,body{
+  margin:0;
+  padding:0;
 }
-.arrows-img {
-  width: 150px;
-  position:relative;
+
+body{
+  background: url(../img/background.png);
+  background-size: cover;
+  font-family: "Open Sans";
+}
+
+#game-board{
+  text-align: center;
 }
 .title{
   text-align: center;
-  flex-direction: column;
-  position:relative;
-
 }
-.btn {
-  position: relative;
-  display: block;
-  margin: auto;
+#start-button{
   padding: 20px;
-  overflow: hidden;
   border-width: 0;
   outline: none;
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
   background-color: black;
   color: white;
+  font-size: 25px;
+  text-transform: uppercase;
   transition: background-color .3s;
+}
+
+.instructions{
+  text-align: center;
+  margin-bottom: 80px;
 }
